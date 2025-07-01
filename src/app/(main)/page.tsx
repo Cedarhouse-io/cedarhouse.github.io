@@ -213,14 +213,10 @@ export default function LandingPage() {
   </Heading>
 
   <>
-    <Fade zIndex={1} to="right" fillHeight width="64" position="absolute" left="0" top="0" />
-    <AutoScroll speed="fast" paddingY="l">
-      <Logo wordmark="/logos/clinic-one.svg" size="s" />
-      <Logo wordmark="/logos/fqhc-group.svg" size="s" />
-      <Logo wordmark="/logos/healing-hope.svg" size="s" />
-      <Logo wordmark="/logos/mental-health-center.svg" size="s" />
-      <Logo wordmark="/logos/community-care.svg" size="s" />
-      <Logo wordmark="/logos/nonprofit-alliance.svg" size="s" />
+     <Fade zIndex={1} to="right" fillHeight width="64" position="absolute" left="0" top="0" />
+    <AutoScroll speed="fast" paddingY="l" gap="l">
+      <img src="/logos/youthoasis.svg" style={{ height: '48px', objectFit: 'contain' }} alt="Youth Oasis" />
+      <img src="/logos/positivechoices.jpeg" style={{ height: '48px', objectFit: 'contain' }} alt="Positive Choices" />
     </AutoScroll>
     <Fade zIndex={1} to="left" fillHeight width="64" position="absolute" right="0" top="0" />
   </>
